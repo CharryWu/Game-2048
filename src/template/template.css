@@ -1,0 +1,141 @@
+body {
+    text-align: center;
+    min-width: 280px;
+    background: #2B2B2B;
+    color: #eee;
+}
+
+.game-wrapper {
+    display: inline-block;
+    min-width: 280px;
+}
+
+@media (min-width: 500px) {
+    .game-wrapper {
+        width: 500px;
+    }
+
+    .game-upper {
+        height: 150px;
+
+    }
+
+    .game-title {
+        font-size: 50px;
+    }
+
+    .score-tab {
+        width: 100px;
+    }
+
+    .score-tab-title, .score-num {
+        font-size: 20px;
+    }
+
+    .game-cell {
+        width: 80px;
+        height: 80px;
+    }
+
+    .game-grid {
+        height: 500px;
+        margin-top: 30px;
+    }
+
+    .game-number {
+        font-size: 50px;
+        line-height: 80px;
+    }
+
+}
+
+@media (max-width: 499px) {
+    .game-wrapper {
+        width: 280px;
+    }
+
+    .game-upper {
+        height: 100px;
+
+    }
+
+    .game-title {
+        font-size: 30px;
+    }
+
+    .score-tab {
+        width: 70px;
+    }
+
+    .score-tab-title, .score-num {
+        font-size: 16px;
+    }
+
+    .game-cell {
+        width: 50px;
+        height: 50px;
+    }
+
+    .game-grid {
+        height: 280px;
+        margin-top: 20px;
+    }
+
+    .game-number {
+        font-size: 30px;
+        line-height: 50px;
+    }
+}
+
+.game-upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.game-title {
+    font-weight: bold;
+    height: 100%;
+}
+
+.score-tab {
+    height: 45%;
+    margin-top: 5%;
+    background: orange;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.score-tab-title, .score-num {
+    flex-grow: 1;
+}
+
+.game-grid {
+    background: #eee;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius:5px;
+}
+
+.game-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.game-cell {
+    background: gray;
+    display: inline-block;
+    position: relative;
+    border-radius: 4px;
+}
+
+.game-number {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}

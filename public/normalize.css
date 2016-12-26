@@ -1,0 +1,53 @@
+:focus {
+    outline: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+article, img {
+    -moz-user-select: none;
+    /*火狐*/
+    -webkit-user-select: none;
+    /*webkit浏览器*/
+    -ms-user-select: none;
+    /*IE10*/
+    -khtml-user-select: none;
+    /*早期浏览器*/
+    user-select: none;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+body {
+    font-family: "Heiti SC", "Droid Sans", "Microsoft Yahei", Helvetica, Verdana, "Sans Serif";
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: #fafafa;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
