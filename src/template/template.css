@@ -1,13 +1,13 @@
 body {
     text-align: center;
-    min-width: 280px;
+     min-width: 280px;
     background: #2B2B2B;
     color: #eee;
 }
 
 .game-wrapper {
     display: inline-block;
-    min-width: 280px;
+     min-width: 280px;
 }
 
 @media (min-width: 500px) {
